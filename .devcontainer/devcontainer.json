@@ -1,0 +1,21 @@
+{
+  "name": "Python-Docker",
+  "dockerFile": "Dockerfile",
+  "service": "python-docker",
+  "workspaceFolder": "/home/vscode/work",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+      }
+    }
+  }
+}
