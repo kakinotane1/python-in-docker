@@ -17,6 +17,17 @@ docker run -d --name your-container-name \
   -t your/image-name:1.0
 ```
 
+## start container
+run
+``` Bash
+docker start your-container-name
+```
+
+root login
+``` Bash
+docker exec -it --user root your-container-name /bin/bash
+```
+
 ## work in devcontainer
 push "Attach to Running Container..."  
 and select "your-container-name"
